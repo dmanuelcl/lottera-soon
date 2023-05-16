@@ -1046,8 +1046,8 @@
             xhr.send(post);
 
             xhr.onload = function () {
+                console.log("Post successfully created!")
                 if (xhr.status === 201) {
-                    console.log("Post successfully created!")
                     alert("Thanks for joining, we'll let you know when we officially launch")
                 }
             }
